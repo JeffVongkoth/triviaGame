@@ -25,3 +25,10 @@ h1 {
     margin: 10px 0 0 13% !important;
     font-family: 'Faster one' !important;
 }
+
+h2 {
+    font-size: 10px !important;
+    margin: 10px 0 0 13% !important;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+}
