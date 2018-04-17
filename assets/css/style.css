@@ -1,0 +1,27 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat-x;
+    background-repeat: space;
+}
+
+#start {
+    background-color: rgba(198, 60, 0, 1);
+    margin: 10% 19% 0 25% !important;
+    border-radius: 15px 15px 15px 15px;
+    color: white;
+    width: 50%;
+    height: 150px !important;
+
+}
+
+button {
+
+    background-color: rgba(59, 167, 0, 1) !important;
+    border-color: rgba(59, 167, 0, 1) !important;
+    margin: 10px 0 0 35% !important;
+}
+
+h1 {
+    margin: 10px 0 0 13% !important;
+    font-family: 'Faster one' !important;
+}
