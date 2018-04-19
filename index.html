@@ -3,27 +3,36 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>JDM Legends</title>
+    <title>JDM Car Trivia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="images" src="assets/images">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
 
     <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script> -->
 </head>
 <body>
 <div class="row">
 <div id="start">
+<h1 id="title">JDM Car Trivia</h1>
+<div id="countdown"></div>
+<div id="question"></div>
 
-<h1>JDM legends of the 90's</h1>
-        <div id="countdown"></div>
-        <button type="button" class="btn btn-primary btn-lg gamestart">Press here to start!</button>
+<button type="button" class="btn btn-primary btn-lg gamestart">Press here to start!</button>
+
+<button value="0" id="choice0" class="choice"></button>
+<button value="1" id="choice1" class="choice"></button>
+<button value="2" id="choice2" class="choice"></button>
+<button value="3" id="choice3" class="choice"></button>
+
     </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/javascript/app.js"></script>
+    
 </body>
 
 </html>
